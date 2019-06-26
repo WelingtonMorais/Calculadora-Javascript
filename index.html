@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<title>Calculadora</title>
+	<script language="javascript" src="JS.js"></script>
+</head>
+<body style="background:##EEEEEE">
+	<div class='container'>
+        <div class="clearfix">
+            <div class="col-md-4">
+                <!-- 1 of 3 -->
+            </div>
+				<h1 class="jumbotron">CALCULADORA COM JAVASCRIPT</h1>
+        <div class="col-md-4">	
+			<form>
+				<div class="form-group">
+					<label>1º Número</label>
+					<input type="float" class="form-control" id="num1"placeholder="Digite aqui" autocomplete="off">
+					<small class="form-text text-muted">Adicione o primeiro número.</small>
+				</div>
+				
+				<div class="form-group">
+					<label>2º Número</label>
+					<input type="float" class="form-control" id="num2" placeholder="Adicione o segundo número" autocomplete="off">
+				</div>
+				
+				<div class="form-group form-check">
+					<label class="form-check-label">Informe a operação da conta.</label>
+					<select class="form-control" id="operacao">
+						<option value="">---Selecione uma opção---</option>
+						<option value="1">Somar</option>
+						<option value="2">Subtrair</option>
+						<option value="3">Multiplicar</option>
+						<option value="4">Dividir</option>
+					</select>
+				</div>
+				<button type="button" class="btn btn-primary" onclick="calcular()">Enviar</button>
+				<br><br><br>
+				<div class="well">
+					Resultado: <input id="resultado" type="text" class="form-control" readonly/>
+				</div>
+			</form>
+		</div>
+		</div>
+	<hr>
+                <footer id="rodape" style="background-color: #e5e5e5;">
+                <br>
+                <p class="text-center"><b> © 2018 Welington Morais All Rights Reserved</b></p>
+                
+                <h6 class="text-center">Declaração</h6>
+                <p class="text-justify">A informação publicada neste projeto NÃO necessariamente refletem a opinião de qualquer pessoa que não seja o autor. Clientes ou empregadores do autor não tem parte na autoria ou co-autoria de artigos. Todo código ou exemplo de dados mostrado é criado especificamente para estudo, e jamais será cópia ou oriundo de dados reais de produção.</p>
+
+                <h6 class="text-center">Disclaimer</h6>
+                <p class="text-justify">The information published in this project does NOT necessarily reflect the opinion of anyone other than the author. Clients or employers of the author has no part in authoring or co-authoring of articles. Any code or sample data shown is created specifically for study, and will never be copied or derived from actual production data.</p>
+                </footer>
+                </hr>
+	</div>
+
+</body>
+</html>
