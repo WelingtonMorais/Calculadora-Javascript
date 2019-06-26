@@ -1,3 +1,0 @@
-O projeto calculadora no momento apresenta os seguintes bug's:
--Aparece as sugestões no input toda hora
--O input resultado não mantém o resultado... o resultado aparece muito rápido
